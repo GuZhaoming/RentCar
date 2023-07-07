@@ -1,0 +1,52 @@
+.lic-tmpl{
+    width: 600rpx;
+    height: 450rpx;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stretch{
+    width: 100%;
+    height: 100%;
+}
+
+.lic-tmpl-img{
+    position: absolute;
+    opacity: 0.4;
+}
+
+.instruction{
+    position: absolute;
+    bottom: -75rpx;
+}
+
+
+.container{
+    padding-top: 65rpx;
+}
+
+/* 拍照图标大小 */
+.cuIcon-camerafill{
+    font-size: 172rpx;
+}
+
+/* 自动对齐title标题 */
+.cu-form-group .title {     
+    min-width: calc(4em + 30rpx);
+}
+
+/* 表单宽度 */
+.lic-form{
+    width: 600rpx;
+}
+
+.check{
+    position: absolute;
+    font-size: 170rpx;
+    width: 150rpx;
+    height: 150rpx;
+    margin-bottom: 320rpx;
+    margin-left: 430rpx;
+}

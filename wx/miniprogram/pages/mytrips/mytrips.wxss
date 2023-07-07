@@ -1,0 +1,28 @@
+.avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.detail-row {
+    display: flex
+}
+
+.cost{
+    font-style: italic;
+}
+
+.trip{
+    border-radius: 25rpx;
+    display: flex;
+}
+
+.trip-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+}

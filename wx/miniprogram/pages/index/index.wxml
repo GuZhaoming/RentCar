@@ -1,0 +1,25 @@
+<map
+    id="map"
+    latitude="{{location.latitude}}"
+    longitude="{{location.longitude}}"
+    scale="{{scale}}"
+    setting="{{setting}}"
+    markers="{{markers}}"
+    covers="{{covers}}"    
+    show-location
+>
+<view class="icon-container">
+    <cover-image class="round" 
+                 src="{{userImgUrl?userImgUrl:'/pages/image/account.png'}}" 
+                 bindtap="onMyTrips">
+    </cover-image>
+    <cover-image 
+        src="/pages/image/my_location.png"
+        bindtap="onMyLocationTap"
+        class="round"
+    ></cover-image>
+</view>
+<view class="btn-container bg-grey round" bindtap="onScanClicked" >
+    <view>扫码租车</view>
+</view>
+</map>

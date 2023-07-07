@@ -1,0 +1,23 @@
+<view class="container">
+    <view class="box padding-bottom-lg">
+        <view class="margin-top">
+            <view class="time">
+                <text class="cuIcon-timefill"></text>
+                <text class="time-driven">{{elapsed}}</text>
+            </view>
+            <view class="cost margin-top-sm">
+                <text>费用:{{cost}}元</text>
+            </view>
+        </view>
+        <button style="width:100%"
+                class="cu-btn bg-red margin-tb-sm lg"
+                bindtap="onEndTrips">结束行程</button>
+    </view>
+    <map id="map" latitude="{{location.latitude}}"
+                  longitude="{{location.longitude}}"
+                  scale="{{scale}}" 
+                  setting="{{setting}}"
+                  markers="{{markers}}"
+                  covers="{{covers}}"
+                  show-location></map>
+</view>
